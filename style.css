@@ -288,11 +288,13 @@ main{
 .card{
 	padding: 20px;
 	font-size: 14px;
+    transition: 0.3s ease;
 }
 .card:hover{
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
+    transform: scale(1.1);
 }
 .card__title{
 	font-size: 22px;
