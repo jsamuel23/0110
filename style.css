@@ -333,21 +333,21 @@ main{
 	max-height: 100%;
 	width: 100%;
 	background: #ECEFF1;
+    overflow: hidden;
+   
+    
 }
+.thumbnail img{
+    height: inherit;
+    transition: transform .2s ease-in-out;
+}
+.thumbnail:hover img{
+    transform:scale(1.1);
+}
+
+
 .thumbnail--large{
 	height: 480px;
-}
-.thumbnail:before{
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 70%;
-	width: 100%;
-	background: #CFD8DC;
-	-webkit-clip-path: polygon(0 100%, 0 80%, 35% 0%, 55% 50%, 65% 25%, 100% 85%, 100% 100%);
-	        clip-path: polygon(0 100%, 0 80%, 35% 0%, 55% 50%, 65% 25%, 100% 85%, 100% 100%);
-	      
 }
 
 
